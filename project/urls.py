@@ -26,6 +26,7 @@ urlpatterns = [
     # path('h/',views.hello),
     # # path('w/',views.wel)
     # path('w/<int:age>',views.wel),
+    path('', myhome, name='home'),
     path('reg/',Empreg),
     # path('sta/',views.mystatic),
     path('hh/',myhome),
